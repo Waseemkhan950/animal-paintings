@@ -1,0 +1,14 @@
+.example-card {
+  max-width: 225px;
+}
+
+mat-card:hover{
+      transform: scale(1.25);
+      cursor: pointer;
+}
+mat-card {
+      transition: transform .5s ease-in-out;
+}
+.sort-dropdown{
+      margin-left: 20px; 
+}
